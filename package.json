@@ -1,0 +1,23 @@
+{
+  "name": "saucedemo-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Este projeto é uma Prova de Conceito (POC) de automação de testes web criada para o desafio técnico da **Auvo**. A aplicação testada é o site de e-commerce fictício [https://www.saucedemo.com](https://www.saucedemo.com), utilizando o framework **Playwright** com **JavaScript** e arquitetura **Page Object Model (POM)**.",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0"
+  }
+}
